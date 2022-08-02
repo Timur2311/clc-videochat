@@ -269,7 +269,7 @@ GitHub.sublime-settings
 local_settings.py
 
 .templates
-staticfiles/
+static/
 common/staticfiles/
 core/local_settings.py
 core/templates/index.html
