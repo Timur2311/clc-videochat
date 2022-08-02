@@ -40,8 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    # my_apps
+    'account',
     'call',
+    # external_apps
     'channels',
 ]
 
@@ -87,7 +89,7 @@ DATABASES = {
 }
 
 
-AUTH_USER_MODEL = "common.user"
+AUTH_USER_MODEL = "account.User"
 
 
 # Password validation
